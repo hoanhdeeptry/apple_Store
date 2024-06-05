@@ -1,0 +1,153 @@
+.part-1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/image2.png);
+    background-position: center;
+}
+.text-part-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    gap: 1vh;
+    top: 10%;
+    color: #fff;
+}
+.text-part-1 h1{
+    font-size: 3vw;
+}
+
+.text-part-1 p{
+    font-size: 1.6vw;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.link a{
+    text-decoration: none;
+    color: rgb(26, 141, 242);
+    font-size: 1.2vw;
+}
+
+.link a:hover{
+    border-bottom: 1px solid rgb(26, 141, 242);
+}
+.part-2{
+    background-image: url(../image/image3.png);
+}
+
+.text-part-2{
+    color: #333;
+}
+#part2_0{
+    display: flex;
+    position: relative;
+    top: 20px;
+    color: #fff;
+    font-size: 32px;
+    color: #DED2B9;
+    
+}
+#part2_1{
+    margin-right: 500px;
+    
+} 
+#part2_2{
+    margin-left: 100px;
+}
+#part2_3{
+    position: relative;
+    top: 450px;
+    color: #F5F5F7;
+    font-size: 28px;
+}
+#part2_4{
+    position: relative;
+    top: 450px;
+    color: #F5F5F7;
+    font-size: 20px;
+}
+.part-3{
+    background-image: url(../image/image4.png);
+}
+.text-part-3{
+    color: #1D1D1F;
+    font-size: 56px;
+    font-weight: 700;
+}
+.part-4{
+    display: flex;
+    width: 100%;
+    margin-top: -50px;
+   
+}
+
+.part-4-1{
+    height: 100vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(../image/image5.png);
+    border-radius: 20%;
+
+}
+
+.part-4-2{
+    height: 100vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(../image/image6.png);
+    border-radius: 20%;
+}
+
+.part-4 .text-part-1{
+    color: #333;
+}
+
+.part-4 .text-part-1 p{
+    font-size: 1vw;
+}
+
+.part-4-3{
+    height: 100vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(../image/image7.png);
+    border-radius: 20%;
+
+}
+
+.part-4-4{
+    height: 100vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(../image/image8.png);
+    border-radius: 20%;
+}
+
+.carousel-image {
+    height: 500px;
+    object-fit: cover;
+  }
+
+.carousel-indicators [data-bs-target] {
+    width: 10px !important;
+    height: 10px!important;
+    border-radius: 50% !important;;
+    background-color: #ccc !important;;
+    margin: 0 5px !important;;
+  }
+
+  .carousel-indicators .active {
+    background-color: #000;
+  }
+

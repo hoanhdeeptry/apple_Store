@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accessories</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div id="header"></div>
+  <div class="page">
+    <div class="local-content">
+      <h1 class="local-content-title">Accessories</h1>
+      <div>
+        <span style="font-family: Arial, Helvetica, sans-serif">Browse all</span>
+        <i id="icon-fas" class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+    <!-- bắt đầu box-1 -->
+    <div class="box-1">
+      <div class="box-1-left">
+        <h1 class="box-1-left-heading">Mix. Match.</h1>
+        <h1 class="box-1-left-heading">MagSafe.</h1>
+        <div style="display: flex; flex-direction: column; gap: 15px">
+          <p class="box-1-left-title">
+            Snap on a case, wallet, wireless charger, or battery pack.
+          </p>
+          <a style="color: #0066cc; cursor: pointer ;text-decoration: none;" href="https://www.apple.com/vn/shop/accessories/all/magsafe">Shop
+            MagSafe</a>
+        </div>
+      </div>
+      <div class="box-1-right">
+        <img src="./img/magsafe-202209 (1).png" alt="" />
+      </div>
+    </div>
+    <!-- bắt đầu box-2 -->
+    <div class="box-2">
+      <h1 class="box-2-header">Find the accessories you're looking for.</h1>
+      <form class="from-search">
+        <div style="z-index: 2;">
+          <button type="submit">
+            <i id="icon-search" class="fas fa-search"></i>
+          </button>
+        </div>
+        <div style="z-index: 1;">
+          <input type="text" placeholder="Search accessories" id="search" />
+        </div>
+      </form>
+    </div>
+    <!-- bắt đầu box-3 -->
+    <div class="box-3">
+      <div class="box-3-tab">
+        <div class="box-3-tab-left">
+          <button class="box-3-tab-btn-1" id="box-3-tab-btn-id-1">Browse by Product</button>
+        </div>
+        <div class="box-3-tab-right">
+          <button class="box-3-tab-btn-2" id="box-3-tab-btn-id-2">Browse by Category</button>
+        </div>
+      </div>
+      <!-- list hiện trước -->
+      <div id="box-3-ShowBefore" class="box-3-item">
+        <ul class="box-3-list-item-1">
+          <li class="list-item-1">
+            <a class="link-item-1" href="https://www.apple.com/vn/shop/mac/accessories">
+              <div class="link-item-img-1">
+                <img class="item-img"
+                  src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/icon-product-mac?wid=225&hei=225&fmt=png-alpha&.v=1700067558508"
+                  alt="" />
+              </div>
+              <p class="link-item-title-1">Mac</p>
+            </a>
+          </li>
+          <li class="list-item-1">
+            <a class="link-item-1" href="https://www.apple.com/vn/shop/ipad/accessoriess">
+              <div class="link-item-img-1">
+                <img class="item-img"
+                  src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/icon-product-ipad?wid=225&hei=225&fmt=png-alpha&.v=1699474605227"
+                  alt="" />
+              </div>
+              <p class="link-item-title-1">Ipas</p>
+            </a>
+          </li>
+          <li class="list-item-1">
+            <a class="link-item-1" href="https://www.apple.com/vn/shop/iphone/accessories">
+              <div class="link-item-img-1">
+                <img class="item-img"
+                  src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/icon-product-iphone?wid=225&hei=225&fmt=png-alpha&.v=1699474605231"
+                  alt="" />
+              </div>
+              <p class="link-item-title-1">Iphone</p>
+            </a>
+          </li>
+          <li class="list-item-1">
+            <a class="link-item-1" href="https://www.apple.com/vn/shop/watch/accessories">
+              <div class="link-item-img-1">
+                <img class="item-img"
+                  src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/icon-product-watch?wid=225&hei=225&fmt=png-alpha&.v=1699474605232"
+                  alt="" />
+              </div>
+              <p class="link-item-title-1">Watch</p>
+            </a>
+          </li>
+          <li class="list-item-1">
+            <a class="link-item-1" href="https://www.apple.com/vn/shop/smart-home/accessories">
+              <div class="link-item-img-1">
+                <img class="item-img"
+                  src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/icon-product-tv?wid=225&hei=225&fmt=png-alpha&.v=1699474605227"
+                  alt="" />
+              </div>
+              <p style="margin-left: 35px" class="link-item-title-1">
+                TV & Home
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- list hiện sau -->
+      <div id="box-3-ShowAfter" class="box-3-item" style="display: none">
+        <ul class="box-3-list-item-1">
+          <li class="list-item-1">
+            <a class="link-item-1" href="https://www.apple.com/vn/shop/accessories/all/new-arrivals">
+              <div class="link-item-img-1">
+                <img class="item-img"
+                  src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/icon-category-new-arrivals?wid=150&hei=150&fmt=png-alpha&.v=1699572503991"
+                  alt="" />
+              </div>
+              <p style="margin-left: 20px" class="link-item-title-1">
+                New Product
+              </p>
+            </a>
+          </li>
+          <li style="margin-left: 15px;" class="list-item-1">
+            <a class="link-item-1" href="https://www.apple.com/vn/shop/accessories/all/cases-protection">
+              <div class="link-item-img-1">
+                <img class="item-img"
+                  src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/icon-category-cases-protection?wid=150&hei=150&fmt=png-alpha&.v=1699561941827"
+                  alt="" />
+              </div>
+              <p style="margin-left: -5px; width: 150px; text-align: center" class="link-item-title-1">
+                Protective Cases & Covers
+              </p>
+            </a>
+          </li>
+          <li style="margin-left: 15px;" class="list-item-1">
+            <a class="link-item-1" href="https://www.apple.com/vn/shop/accessories/all/charging-essentials">
+              <div class="link-item-img-1">
+                <img class="item-img"
+                  src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/icon-category-charging-essentials?wid=150&hei=150&fmt=png-alpha&.v=1699561941713"
+                  alt="" />
+              </div>
+              <p style="margin-left: -20px; width: 200px; text-align: center" class="link-item-title-1">
+                Essential Charging Equipment
+              </p>
+            </a>
+          </li>
+          <li style="margin-left: -30px;" class="list-item-1">
+            <a class="link-item-1" href="https://www.apple.com/vn/shop/accessories/all/magsafe">
+              <div class="link-item-img-1">
+                <img class="item-img"
+                  src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/icon-category-magsafe?wid=150&hei=150&fmt=png-alpha&.v=1699572503981"
+                  alt="" />
+              </div>
+              <p style="margin-left: 45px" class="link-item-title-1">
+                MagSafe
+              </p>
+            </a>
+          </li>
+          <li class="list-item-1">
+            <a class="link-item-1" href="https://www.apple.com/vn/shop/accessories/all/headphones-speakers">
+              <div class="link-item-img-1">
+                <img class="item-img"
+                  src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/icon-category-audio-music?wid=150&hei=150&fmt=png-alpha&.v=1699561939556"
+                  alt="" />
+              </div>
+              <p style="margin-left: 30px; width: 100px" class="link-item-title-1">
+                Headphones & Speakers
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Bắt đầu box-4 -->
+    <div class="box-4">
+      <div class="box-4-heading">
+        <h1>Holiday Gifts</h1>
+      </div>
+      <div class="box-4-all">
+        <div class="box-4-body">
+          <div class="box-4-img">
+            <img src="./img/MV7N2.png" alt="" />
+          </div>
+          <div class="box-4-titles">
+            <p class="box-4-titles-1">Free Engraving</p>
+            <a class="box-4-link" href="https://www.apple.com/vn/airpods-2nd-generation/">AirPods (2nd generation)</a>
+            <p class="box-4-price">$129.00</p>
+          </div>
+        </div>
+        <div class="box-4-body">
+          <div class="box-4-img">
+            <img src="./img/MU8F2.png" alt="" />
+          </div>
+          <div class="box-4-titles">
+            <p class="box-4-titles-1">Free Engraving</p>
+            <a class="box-4-link" href="https://www.apple.com/vn/airpods-2nd-generation/">AirPods (2nd generation)</a>
+            <p class="box-4-price">$129.00</p>
+          </div>
+        </div>
+        <div class="box-4-body">
+          <div class="box-4-img">
+            <img src="./img/MJWY3.png" alt="" />
+          </div>
+          <div class="box-4-titles">
+            <a style="margin-top: 25px" class="box-4-link"
+              href="https://www.apple.com/vn/airpods-2nd-generation/">MagSafe Battery Pack</a>
+            <p class="box-4-price">$99.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- bắt đâu box-5 -->
+    <div class="box-5">
+      <div class="box-5-heading">
+        <h1>Featured iPhone Accessories</h1>
+      </div>
+      <div class="box-5-accessories">
+        <a class="box-5-linkAll"
+          href="https://www.apple.com/vn/shop/product/MWND3FE/A/%E1%BB%91p-l%C6%B0ng-silicon-magsafe-cho-iphone-15-m%C3%A0u-xanh-d%C6%B0%C6%A1ng-nh%E1%BA%A1t?fnode=7cd8a278492c8584d3e1120ab5481bae0af5e2a483a6d7a1120e344dbbc1fdcdaadbedd7134a1df731ebf69c65aeb0c167209c34a5501d2e41fd8d93c39e66d87009c0ef09669e4dfcca8054205ed14da382ba05e55a6633055a241758f5dc4b">
+          <div class="box-5-body">
+            <div class="box-5-titles">
+              <img class="box-5-img"
+                src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MWND3?wid=532&hei=582&fmt=png-alpha&.v=1708125477348"
+                alt="" />
+            </div>
+            <div class="box-5-list-colorAll">
+              <div class="box-5-list-color">.</div>
+              <div style="background-color: #ffcc33" class="box-5-list-color"></div>
+              <div style="background-color: #9cb5c9" class="box-5-list-color"></div>
+              <div style="background-color: #6e7b8b" class="box-5-list-color"></div>
+              <div style="background-color: #8b7e66" class="box-5-list-color"></div>
+              <div style="background-color: #f08080" class="box-5-list-color"></div>
+              <div style="margin-top: -2px">+</div>
+            </div>
+            <p style="color: #bf4800; text-align: center; padding-top: 30px">
+              New
+            </p>
+            <h1 class="box-5-heading-child">
+              MagSafe Silicone Case for iPhone 15 - Light Blue
+            </h1>
+            <p class="box-5-price">$56.00</p>
+          </div>
+        </a>
+        <div class="box-5-body">
+          <a class="box-5-linkAll"
+            href="https://www.apple.com/vn/shop/product/MHXH3VN/A/b%E1%BB%99-s%E1%BA%A1c-magsafe?fnode=7cd8a278492c8584d3e1120ab5481bae0af5e2a483a6d7a1120e344dbbc1fdcdaadbedd7134a1df731ebf69c65aeb0c167209c34a5501d2e41fd8d93c39e66d87009c0ef09669e4dfcca8054205ed14da382ba05e55a6633055a241758f5dc4b">
+            <div class="box-5-titles">
+              <img class="box-5-img"
+                src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MHXH3?wid=532&hei=582&fmt=png-alpha&.v=1661269793559"
+                alt="" />
+            </div>
+            <h1 class="box-5-heading-child-1">MagSafe Charger</h1>
+            <p class="box-5-price-1">$47.00</p>
+        </div>
+        </a>
+        <div class="box-5-body">
+          <a class="box-5-linkAll"
+            href="https://www.apple.com/vn/shop/product/MT223FE/A/%E1%BB%91p-l%C6%B0ng-trong-su%E1%BB%91t-magsafe-cho-iphone-15-pro?fnode=7cd8a278492c8584d3e1120ab5481bae0af5e2a483a6d7a1120e344dbbc1fdcdaadbedd7134a1df731ebf69c65aeb0c167209c34a5501d2e41fd8d93c39e66d87009c0ef09669e4dfcca8054205ed14da382ba05e55a6633055a241758f5dc4b">
+            <div class="box-5-titles">
+              <img class="box-5-img"
+                src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MT223?wid=532&hei=582&fmt=png-alpha&.v=1693248280978"
+                alt="" />
+            </div>
+            <h1 class="box-5-heading-child-2">
+              MagSafe Clear Case for iPhone 15 Pro
+            </h1>
+            <p class="box-5-price-2">$56.00</p>
+        </div>
+        </a>
+      </div>
+      <div class="box-5-link">
+        <a href="https://www.apple.com/vn/shop/iphone/accessories">Shop all iPhone accessories
+          <i style="font-size: 14px" class="fas fa-chevron-right"></i></a>
+      </div>
+    </div>
+    <!-- bắt đầu box-5.2 -->
+    <div class="box-5">
+      <div class="box-5-heading">
+        <h1>Featured iPad Accessories</h1>
+      </div>
+      <div class="box-5-accessories">
+        <a class="box-5-linkAll"
+          href="https://www.apple.com/vn/shop/product/MQDP3ZA/A/magic-keyboard-folio-cho-ipad-th%E1%BA%BF-h%E1%BB%87-th%E1%BB%A9-10-ti%E1%BA%BFng-anh-m%E1%BB%B9?fnode=7cd8a278492c8584d3e1120ab5481bae0af5e2a483a6d7a1120e344dbbc1fdcdaadbedd7134a1df731ebf69c65aeb0c167209c34a5501d2e41fd8d93c39e66d87009c0ef09669e4dfcca8054205ed14da382ba05e55a6633055a241758f5dc4b">
+          <div class="box-5-body">
+            <div class="box-5-titles">
+              <img class="box-5-img"
+                src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MQDP3?wid=532&hei=582&fmt=png-alpha&.v=1664481446939"
+                alt="" />
+            </div>
+            <p style="color: #bf4800; text-align: center; padding-top: 30px">
+              New
+            </p>
+            <h1 class="box-5-heading-child">
+              Magic Keyboard Folio for iPad (10th generation)
+            </h1>
+            <p class="box-5-price">$274.00</p>
+          </div>
+        </a>
+        <a class="box-5-linkAll"
+          href="https://www.apple.com/vn/shop/product/MQLY3ZP/A/apple-pencil-th%E1%BA%BF-h%E1%BB%87-th%E1%BB%A9-1?fnode=7cd8a278492c8584d3e1120ab5481bae0af5e2a483a6d7a1120e344dbbc1fdcdaadbedd7134a1df731ebf69c65aeb0c167209c34a5501d2e41fd8d93c39e66d87009c0ef09669e4dfcca8054205ed14da382ba05e55a6633055a241758f5dc4b">
+          <div class="box-5-body">
+            <div class="box-5-titles">
+              <img class="box-5-img"
+                src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MK0C2?wid=532&hei=582&fmt=png-alpha&.v=1564075356758"
+                alt="" />
+            </div>
+
+            <h1 style="padding-top: 55px" class="box-5-heading-child-1">
+              Apple Pencil (1st generation)
+            </h1>
+            <p style="padding-top: 50px" class="box-5-price-1">$99.00</p>
+          </div>
+        </a>
+        <a class="box-5-linkAll"
+          href="https://www.apple.com/vn/shop/product/MWR43ZA/A/magic-keyboard-cho-ipad-pro-13-inch-m4-ti%E1%BA%BFng-anh-m%E1%BB%B9-tr%E1%BA%AFng?fnode=7cd8a278492c8584d3e1120ab5481bae0af5e2a483a6d7a1120e344dbbc1fdcdaadbedd7134a1df731ebf69c65aeb0c167209c34a5501d2e41fd8d93c39e66d87009c0ef09669e4dfcca8054205ed14da382ba05e55a6633055a241758f5dc4b">
+
+          <div class="box-5-body">
+            <div class="box-5-titles">
+              <img class="box-5-img"
+                src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MWR43?wid=532&hei=582&fmt=png-alpha&.v=1713934214856"
+                alt="" />
+              <div class="box-5-list-colorAll">
+                <div style="background-color: white; color: white" class="box-5-list-color">
+
+                </div>
+                <div style="background-color: #0e0c08" class="box-5-list-color"></div>
+              </div>
+            </div>
+            <h1 style="padding-top: 42px; padding-left: 10px; width: 300px" class="box-5-heading-child-2">
+              Magic Keyboard for iPad Pro 13inch (M4) - white
+            </h1>
+            <p style="padding-top: 28px" class="box-5-price-2">$384.00</p>
+          </div>
+      </div>
+      </a>
+      <div class="box-5-link">
+        <a href="https://www.apple.com/vn/shop/ipad/accessories">Shop all iPad accessories
+          <i style="font-size: 14px" class="fas fa-chevron-right"></i></a>
+      </div>
+    </div>
+    <!-- bắt đầu box-5.3 -->
+    <div class="box-5">
+      <div class="box-5-heading">
+        <h1>Apple Watch Bands</h1>
+      </div>
+      <div class="box-5-accessories">
+        <a class="box-5-linkAll"
+          href="https://www.apple.com/vn/shop/product/MTJP3FE/A/d%C3%A2y-qu%E1%BA%A5n-milan-m%C3%A0u-v%C3%A0ng-kim-45mm?fnode=7cd8a278492c8584d3e1120ab5481bae0af5e2a483a6d7a1120e344dbbc1fdcdaadbedd7134a1df731ebf69c65aeb0c167209c34a5501d2e41fd8d93c39e66d87009c0ef09669e4dfcca8054205ed14da382ba05e55a6633055a241758f5dc4b">
+          <div class="box-5-body">
+            <div class="box-5-titles">
+              <img class="box-5-img"
+                src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ML763?wid=532&hei=582&fmt=png-alpha&.v=1630015276000"
+                alt="" />
+            </div>
+            <div class="box-5-list-colorAll">
+              <div style="background-color: #b9a88f; color: #b9a88f" class="box-5-list-color"></div>
+              <div style="background-color: #e7e9ea" class="box-5-list-color"></div>
+              <div style="background-color: #646565" class="box-5-list-color"></div>
+            </div>
+            <p style="color: #bf4800; text-align: center; padding-top: 30px">
+              New
+            </p>
+            <h1 class="box-5-heading-child">45mm Golden Milanese Band</h1>
+            <p id="price-1" class="box-5-price">$100.07</p>
+          </div>
+        </a>
+        <a class="box-5-linkAll"
+          href="https://www.apple.com/vn/shop/product/MWMV3FE/A/d%C3%A2y-%C4%91eo-th%E1%BB%83-thao-m%C3%A0u-xanh-d%C6%B0%C6%A1ng-nh%E1%BA%A1t-45mm-m-l?fnode=7cd8a278492c8584d3e1120ab5481bae0af5e2a483a6d7a1120e344dbbc1fdcdaadbedd7134a1df731ebf69c65aeb0c167209c34a5501d2e41fd8d93c39e66d87009c0ef09669e4dfcca8054205ed14da382ba05e55a6633055a241758f5dc4b">
+          <div class="box-5-body">
+            <div class="box-5-titles">
+              <img style="padding-left: 30px;" class="box-5-img"
+                src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MWMU3ref?wid=532&hei=582&fmt=png-alpha&.v=1707791911574"
+                alt="" />
+            </div>
+            <div style="padding-top: 30px;" class="box-5-list-colorAll">
+              <div class="box-5-list-color">.</div>
+              <div style="background-color: #ffcc33" class="box-5-list-color"></div>
+              <div style="background-color: #9cb5c9" class="box-5-list-color"></div>
+              <div style="background-color: #6e7b8b" class="box-5-list-color"></div>
+              <div style="background-color: #8b7e66" class="box-5-list-color"></div>
+              <div style="background-color: #0e0a0a" class="box-5-list-color"></div>
+              <div style="margin-top: -2px">+</div>
+            </div>
+            <p style="color: #bf4800; text-align: center; padding-top: 25px">
+              New
+            </p>
+            <h1 style="width: 300px; padding-top: 5px; padding-left: 15px;" class="box-5-heading-child-1">45mm Light
+              Blue Sports Band - M/L</h1>
+            <p style="padding-top: 10px;" class="box-5-price-1">$49.00</p>
+          </div>
+        </a>
+        <a class="box-5-linkAll"
+          href="https://www.apple.com/vn/shop/product/MW4P3FE/A/d%C3%A2y-qu%E1%BA%A5n-th%E1%BB%83-thao-m%C3%A0u-xanh-%C4%91%E1%BA%A1i-d%C6%B0%C6%A1ng-45mm?fnode=7cd8a278492c8584d3e1120ab5481bae0af5e2a483a6d7a1120e344dbbc1fdcdaadbedd7134a1df731ebf69c65aeb0c167209c34a5501d2e41fd8d93c39e66d87009c0ef09669e4dfcca8054205ed14da382ba05e55a6633055a241758f5dc4b">
+          <div class="box-5-body">
+            <div class="box-5-titles">
+              <img class="box-5-img"
+                src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MW4P3?wid=532&hei=582&fmt=png-alpha&.v=1707853693633"
+                alt="" />
+            </div>
+            <div style="padding-top: 1px;" class="box-5-list-colorAll">
+              <div class="box-5-list-color">.</div>
+              <div style="background-color: 	#003399bc" class="box-5-list-color"></div>
+              <div style="background-color: 	#4a6499aa" class="box-5-list-color"></div>
+              <div style="background-color: #1C1C1C" class="box-5-list-color"></div>
+              <div style="background-color: #ded1cf" class="box-5-list-color"></div>
+              <div style="background-color: #FFE4E1" class="box-5-list-color"></div>
+              <div style="margin-top: -2px">+</div>
+            </div>
+            <p style="color: #bf4800; text-align: center; padding-top: 25px">
+              New
+            </p>
+            <h1 style="padding-top: 5px;" class="box-5-heading-child-2">
+              MagSafe Clear Case for iPhone 15 Pro
+            </h1>
+            <p style="padding-top: 8px;" class="box-5-price-2">$56.00</p>
+          </div>
+        </a>
+      </div>
+      <div class="box-5-link">
+        <a href="https://www.apple.com/vn/shop/watch/bands">Shop all bands
+          <i style="font-size: 14px" class="fas fa-chevron-right"></i></a>
+      </div>
+    </div>
+    <!-- bắt đầu box-5.4 -->
+    <div class="box-5">
+      <div class="box-5-heading">
+        <h1>AirTag</h1>
+      </div>
+      <div class="box-5-accessories">
+        <a class="box-5-linkAll"
+          href="https://www.apple.com/vn/shop/buy-airtag/airtag/1-c%C3%A1i?fnode=3f6c30e5cacc4f1b23d3aa0d104b86a3f5a393a3707a46edaed7424e994b16e9392e8e84b047bbcf00afa5c8dc66019c0f88da100babceec3143ff4c984ec887bc74e51a896e1c555976e6449b998e081e63727f3ef2374a6a88d9e04b27d174">
+          <div class="box-5-body">
+            <div class="box-5-titles">
+              <img class="box-5-img"
+                src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/airtag-single-select-202104?wid=532&hei=582&fmt=png-alpha&.v=1617761671000"
+                alt="" />
+            </div>
+            <p style="color: #bf4800; text-align: center; padding-top: 30px">
+              Free Engraving
+            </p>
+            <h1 class="box-5-heading-child">
+              AirTag
+            </h1>
+            <p class="box-5-price">$29.00</p>
+          </div>
+        </a>
+        <a class="box-5-linkAll"
+          href="https://www.apple.com/vn/shop/buy-airtag/airtag/4-c%C3%A1i?fnode=3f6c30e5cacc4f1b23d3aa0d104b86a3f5a393a3707a46edaed7424e994b16e9392e8e84b047bbcf00afa5c8dc66019c0f88da100babceec3143ff4c984ec887bc74e51a896e1c555976e6449b998e081e63727f3ef2374a6a88d9e04b27d174">
+          <div class="box-5-body">
+            <div class="box-5-titles">
+              <img class="box-5-img"
+                src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/airtag-4pack-select-202104?wid=532&hei=582&fmt=png-alpha&.v=1617761669000"
+                alt="" />
+            </div>
+            <p style="color: #bf4800; text-align: center; padding-top: 30px">
+              Free Engraving
+            </p>
+            <h1 style="padding-top: 10px" class="box-5-heading-child-1">
+              AirTag 4 pack
+            </h1>
+            <p style="padding-top: 22px" class="box-5-price-1">$99.00</p>
+          </div>
+        </a>
+        <a class="box-5-linkAll"
+          href="https://www.apple.com/vn/shop/product/MT2M3FE/A/m%C3%B3c-kh%C3%B3a-v%E1%BA%A3i-tinh-d%E1%BB%87t-airtag-san-h%C3%B4?fnode=3f6c30e5cacc4f1b23d3aa0d104b86a3f5a393a3707a46edaed7424e994b16e9392e8e84b047bbcf00afa5c8dc66019c0f88da100babceec3143ff4c984ec887bc74e51a896e1c555976e6449b998e081e63727f3ef2374a6a88d9e04b27d174">
+
+          <div class="box-5-body">
+            <div class="box-5-titles">
+              <img class="box-5-img"
+                src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MT2M3?wid=532&hei=582&fmt=png-alpha&.v=1699644802878"
+                alt="" />
+              <div class="box-5-list-colorAll">
+                <div style="background-color:	#7a30318d; color: white" class="box-5-list-color">
+                </div>
+                <div style="background-color: #8d8382" class="box-5-list-color"></div>
+                <div style="background-color: rgb(72, 130, 133)" class="box-5-list-color"></div>
+                <div style="background-color: #6E7B8B" class="box-5-list-color"></div>
+                <div style="background-color:#8B3A3A" class="box-5-list-color"></div>
+              </div>
+            </div>
+            <h1 style="padding-top: 40px; padding-left: 10px; width: 300px" class="box-5-heading-child-2">
+              AirTag Textile Fabric Keychain - Coral
+            </h1>
+            <p style="padding-top: 5px" class="box-5-price-2">$35.00</p>
+          </div>
+      </div>
+      </a>
+    </div>
+    <!-- bắt đầu box-5.5 -->
+    <div class="box-5">
+      <div class="box-5-heading">
+        <h1>Sound Essentials</h1>
+      </div>
+      <div class="box-5-accessories">
+        <a class="box-5-linkAll"
+          href="https://www.apple.com/vn/shop/product/MTJV3ZP/A/airpods-pro?fnode=cc00dc48cf6fefb9c9834bb67dc044603a460cb7471fe7f835ba87e61c8d88e2caa153ac337862280e93a0e05f7a8aa8a80cd345c38728dac55c1ca8dbeac55b728340da981aa54442ef99e2248c870137b0f9fbae44553acb729aff966fbb51">
+          <div class="box-5-body">
+            <div class="box-5-titles">
+              <img class="box-5-img"
+                src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MTJV3?wid=532&hei=582&fmt=png-alpha&.v=1694014871985"
+                alt="" />
+            </div>
+            <p style="color: #bf4800; text-align: center; padding-top: 40px">
+              New
+            </p>
+            <h1 class="box-5-heading-child">AirPods Pro (2nd generation)</h1>
+            <p style="padding-top: 50px;" class="box-5-price">$249.00</p>
+          </div>
+        </a>
+        <a class="box-5-linkAll"
+          href="https://www.apple.com/vn/shop/product/MQTR3ZP/A/tai-nghe-kh%C3%B4ng-d%C3%A2y-beats-studio-pro-v%C3%A0ng-sa-th%E1%BA%A1ch?fnode=cc00dc48cf6fefb9c9834bb67dc044603a460cb7471fe7f835ba87e61c8d88e2caa153ac337862280e93a0e05f7a8aa8a80cd345c38728dac55c1ca8dbeac55b728340da981aa54442ef99e2248c870137b0f9fbae44553acb729aff966fbb51">
+          <div class="box-5-body">
+            <div class="box-5-titles">
+              <img style="padding-left: 30px;" class="box-5-img"
+                src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MQTR3?wid=532&hei=582&fmt=png-alpha&.v=1687660671097"
+                alt="" />
+            </div>
+            <div style="padding-top: 40px;" class="box-5-list-colorAll">
+              <div style="background-color: #d7c0a6;" class="box-5-list-color">.</div>
+              <div style="background-color: #191970" class="box-5-list-color"></div>
+              <div style="background-color: #4d4238" class="box-5-list-color"></div>
+              <div style="background-color: #000000" class="box-5-list-color"></div>
+            </div>
+            <p style="color: #bf4800; text-align: center; padding-top: 25px">
+              New
+            </p>
+            <h1 style="width: 300px; padding-top: 5px; padding-left: 15px;" class="box-5-heading-child-1">Beats Studio
+              Pro wireless headphones — Sandstone Gold</h1>
+            <p style="padding-top: 10px;" class="box-5-price-1">$314.27</p>
+          </div>
+        </a>
+        <a class="box-5-linkAll"
+          href="https://www.apple.com/vn/shop/product/MK2H3ZP/A/tai-nghe-kh%C3%B4ng-d%C3%A2y-%C4%91%C3%ADch-th%E1%BB%B1c-beats-fit-pro-t%C3%ADm-ng%E1%BB%8Dc?fnode=cc00dc48cf6fefb9c9834bb67dc044603a460cb7471fe7f835ba87e61c8d88e2caa153ac337862280e93a0e05f7a8aa8a80cd345c38728dac55c1ca8dbeac55b728340da981aa54442ef99e2248c870137b0f9fbae44553acb729aff966fbb51">
+          <div class="box-5-body">
+            <div class="box-5-titles">
+              <img class="box-5-img"
+                src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MK2H3?wid=532&hei=582&fmt=png-alpha&.v=1634663497000"
+                alt="" />
+            </div>
+            <div style="padding-top: 1px;" class="box-5-list-colorAll">
+              <div style="background-color: #000000;" class="box-5-list-color">.</div>
+              <div style="background-color: #fefcfced" class="box-5-list-color"></div>
+              <div style="background-color: #DDA0DD" class="box-5-list-color"></div>
+              <div style="background-color: #6e7b8b86" class="box-5-list-color"></div>
+            </div>
+            <h1 style="padding-top: 10px;" class="box-5-heading-child-2">
+              Beats Fit Pro True Wireless Headphones — Jade Purple
+            </h1>
+            <p style="padding-top: 20px;" class="box-5-price-2">$184.62</p>
+          </div>
+        </a>
+      </div>
+      <div class="box-5-link">
+        <a href="https://www.apple.com/vn/shop/accessories/all/headphones-speakers">Shop Headphones and Speakers
+          <i style="font-size: 14px" class="fas fa-chevron-right"></i></a>
+      </div>
+    </div>
+  </div>
+  <div id="footer"></div>
+  <script src="../js/home.js"></script>
+  <script src="index.js"></script>
+  
+</body>
+
+</html>

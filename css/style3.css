@@ -1,0 +1,1514 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Items */
+.container {
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfbfd;
+  display: flex;
+  font-weight: 400;
+  text-align: center;
+  padding: 40px 60px 20px;
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding: 20px;
+  }
+}
+
+.items {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .items {
+    flex-wrap: wrap;
+  }
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  object-fit: auto;
+  object-position: center;
+}
+
+.description {
+  color: #1d1d1f;
+  margin-top: 10px;
+  font: 12px/133% 'SF Pro Text', sans-serif;
+  letter-spacing: -0.12px;
+}
+
+.label-new {
+  color: #bf4800;
+  margin-top: 7px;
+  font: 10px/120% 'SF Pro Text', sans-serif;
+  letter-spacing: -0.08px;
+}
+
+.iphone-pro .image {
+  aspect-ratio: 0.74;
+  width: 40px;
+}
+
+.iphone {
+  line-height: 133%;
+}
+
+.iphone-14 .image {
+  aspect-ratio: 0.98;
+  width: 53px;
+}
+
+.iphone-13 .image {
+  aspect-ratio: 0.96;
+  width: 52px;
+}
+
+.iphone-se .image {
+  aspect-ratio: 0.35;
+  width: 19px;
+}
+
+.iphone-12 .image {
+  aspect-ratio: 0.41;
+  width: 22px;
+}
+
+.compare .image {
+  aspect-ratio: 0.93;
+  width: 50px;
+}
+
+.accessories .image {
+  aspect-ratio: 0.74;
+  width: 40px;
+}
+
+.airpods .image {
+  aspect-ratio: 0.78;
+  width: 42px;
+}
+
+.airtag .image {
+  aspect-ratio: 0.63;
+  width: 34px;
+}
+
+.apple-card .image {
+  aspect-ratio: 0.67;
+  width: 36px;
+}
+
+.ios .image {
+  aspect-ratio: 0.65;
+  width: 35px;
+}
+
+.shop .image {
+  aspect-ratio: 1.28;
+  width: 69px;
+}
+
+/* Notification */
+.notification-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f7;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: -0.22px;
+  padding: 19px 60px;
+}
+
+@media (max-width: 991px) {
+  .notification-wrapper {
+    padding: 20px;
+  }
+}
+
+.notification-content {
+  display: flex;
+  gap: 5px;
+}
+
+@media (max-width: 991px) {
+  .notification-content {
+    flex-wrap: wrap;
+  }
+}
+
+.notification-text {
+  color: #1d1d1f;
+  font-family: SF Pro Text, sans-serif;
+  line-height: 20px;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+
+@media (max-width: 991px) {
+  .notification-text {
+    max-width: 100%;
+  }
+}
+
+.notification-link {
+  color: #06c;
+  font-family: SF Pro Text, sans-serif;
+  line-height: 143%;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+
+/* Content */
+.body-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-container {
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  font-weight: 400;
+  text-align: center;
+  padding: 80px 60px 0;
+}
+
+@media (max-width: 991px) {
+  .product-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.product-description {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .product-description {
+    margin-top: 40px;
+  }
+}
+
+.new-tag {
+  color: #6e6e73;
+  letter-spacing: -0.37px;
+  font: 17px/147% SF Pro Text, sans-serif;
+}
+
+.ip-text {
+  aspect-ratio: 4.76;
+  object-fit: auto;
+  object-position: center;
+  width: 100px;
+  margin-top: 17px;
+  max-width: 100%;
+}
+
+.product-title {
+  letter-spacing: -0.14px;
+  background: linear-gradient(90deg, #2ca2b4 0%, #5598de 24%, #7f87ff 45%, #f65aad 76%, #ec3d43 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 22px;
+  font: 700 48px/108% SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .product-title {
+    font-size: 40px;
+  }
+}
+
+.product-price {
+  color: #1d1d1f;
+  letter-spacing: 0.23px;
+  margin-top: 33px;
+  font: 21px/138.1% SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .product-price {
+    max-width: 100%;
+  }
+}
+
+.actions-container {
+  display: flex;
+  margin-top: 33px;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.action-button {
+  justify-content: center;
+  border-radius: 980px;
+  background-color: #0071e3;
+  color: #fff;
+  white-space: nowrap;
+  letter-spacing: -0.37px;
+  padding: 11px 18px;
+  font: 17px/118% SF Pro Text, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .action-button {
+    white-space: initial;
+  }
+}
+
+.learn-more {
+  color: #06c;
+  letter-spacing: 0.23px;
+  margin: auto 0;
+  font: 21px/138.1% SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.product-image-large {
+  aspect-ratio: 1.1;
+  object-position: center;
+  width: 100%;
+  align-self: stretch;
+  margin-top: 50px;
+}
+
+@media (max-width: 991px) {
+  .product-image-large {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+  .product-image-large img {
+    margin: 0 auto;
+  }
+}
+
+.pro-container {
+  justify-content: center;
+  background-color: #86868b;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .pro-container {
+    max-width: 100%;
+  }
+}
+
+.pro-content {
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  width: 100%;
+  padding: 80px 60px 0;
+}
+
+@media (max-width: 991px) {
+  .pro-content {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.pro-description {
+  display: flex;
+  margin-top: 35px;
+  width: 782px;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pro-new-tag {
+  color: #86868b;
+  letter-spacing: -0.37px;
+  font: 17px/147% SF Pro Text, sans-serif;
+}
+
+.pro-image {
+  aspect-ratio: 7.14;
+  object-fit: auto;
+  object-position: center;
+  width: 140px;
+  margin-top: 16px;
+  max-width: 100%;
+}
+
+.pro-title {
+  letter-spacing: -0.14px;
+  background: linear-gradient(180deg, #ffb6ff 0%, #b344ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 25px;
+  font: 700 48px/108% SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .pro-title {
+    font-size: 40px;
+  }
+}
+
+.pro-price {
+  color: #f5f5f7;
+  letter-spacing: 0.23px;
+  margin-top: 32px;
+  font: 21px/138.1% SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .pro-price {
+    max-width: 100%;
+  }
+}
+
+.pro-actions-container {
+  display: flex;
+  margin-top: 28px;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.pro-image-large {
+  aspect-ratio: 1.45;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  align-self: stretch;
+  margin-top: 42px;
+}
+
+@media (max-width: 991px) {
+  .pro-image-large {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.budget-product-container {
+  justify-content: center;
+  background-color: #fbfbfd;
+  width: 100%;
+  padding-left: 80px;
+}
+
+@media (max-width: 991px) {
+  .budget-product-container {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+.budget-product-content {
+  gap: 20px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .budget-product-content {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+
+.budget-column-1 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 38%;
+  margin-left: 0px;
+}
+
+@media (max-width: 991px) {
+  .budget-column-1 {
+    width: 100%;
+  }
+}
+
+.budget-description {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  align-items: center;
+  font-weight: 400;
+  text-align: center;
+  margin: auto 0;
+}
+
+@media (max-width: 991px) {
+  .budget-description {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.budget-image {
+  aspect-ratio: 4.35;
+  object-fit: auto;
+  object-position: center;
+  width: 96px;
+}
+
+.budget-title {
+  letter-spacing: -0.14px;
+  background: linear-gradient(90deg, #1e3791 0%, #2948b1 40%, #3153c6 55%, #385fda 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 25px;
+  font: 700 48px/52px SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .budget-title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+.budget-price {
+  color: #1d1d1f;
+  letter-spacing: 0.23px;
+  align-self: stretch;
+  margin-top: 32px;
+  font: 21px/138.1% SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .budget-price {
+    max-width: 100%;
+  }
+}
+
+.budget-actions-container {
+  display: flex;
+  margin-top: 28px;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.budget-column-2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 62%;
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  .budget-column-2 {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.budget-image-wrapper {
+  justify-content: center;
+  align-items: start;
+  background-color: #fbfbfd;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .budget-image-wrapper {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+  .budget-image-wrapper img {
+    margin: 0 auto;
+  }
+}
+
+.budget-image-large {
+  aspect-ratio: 0.6;
+  object-fit: auto;
+  object-position: center;
+  width: 494px;
+  max-width: 100%;
+}
+
+/* Guide */
+.content-container {
+  justify-content: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 700;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  min-height: 814px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 80px 60px;
+}
+
+@media (max-width: 991px) {
+  .main-content {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.background-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.text-content {
+  position: relative;
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+}
+
+.guided-tour-text {
+  letter-spacing: 0.22px;
+  font: 24px/117% SF Pro Display, sans-serif;
+}
+
+.headline {
+  letter-spacing: -0.14px;
+  margin-top: 24px;
+  font: 48px/52px SF Pro Display, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .headline {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+.cta-button {
+  border-radius: 980px;
+  background-color: #fff;
+  margin-top: 29px;
+  color: #000;
+  text-align: center;
+  letter-spacing: -0.37px;
+  padding: 12px 17px;
+  font: 400 17px/118% SF Pro Text, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+
+.bn-container {
+  justify-content: flex-end;
+  background-color: #01012a;
+  padding: 16px 65px;
+}
+
+.flex-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .flex-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  width: 41%;
+}
+
+@media (max-width: 991px) {
+  .left-column {
+    width: 100%;
+  }
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: auto 0;
+}
+
+@media (max-width: 991px) {
+  .content-wrapper {
+    margin-top: 40px;
+  }
+}
+
+.profile-img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  width: 106px;
+  max-width: 100%;
+}
+
+.main-heading {
+  color: #fff;
+  margin-top: 5px;
+  font: 700 90px/1.11 SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .main-heading {
+    font-size: 40px;
+  }
+}
+
+.sub-heading {
+  color: #2997ff;
+  margin-top: 23px;
+  font: 400 21px/1.38 SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  width: 59%;
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  .right-column {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.full-width-img {
+  aspect-ratio: 1.2;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+  .full-width-img {
+    margin-top: 40px;
+  }
+}
+
+/* Hero section  */
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 20px;
+}
+
+.hero-title {
+  color: #1d1d1f;
+  text-align: center;
+  letter-spacing: -0.28px;
+  align-self: center;
+  font: 700 56px/107% SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .hero-title {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+
+.hero-section {
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 30px;
+}
+
+@media (max-width: 991px) {
+  .hero-section {
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+}
+
+.hero-content {
+  display: flex;
+  width: 100%;
+  max-width: 1004px;
+  flex-direction: column;
+  align-items: center;
+  margin: 19px 0 18px;
+}
+
+@media (max-width: 991px) {
+  .hero-content {
+    max-width: 100%;
+  }
+}
+
+.section-title {
+  color: #1d1d1f;
+  text-align: center;
+  letter-spacing: 0.22px;
+  font: 700 24px/117% SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.section-subtitle {
+  color: #1d1d1f;
+  text-align: center;
+  letter-spacing: -0.14px;
+  margin-top: 21px;
+  font: 700 48px/52px SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .section-subtitle {
+    max-width: 100%;
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+.card-container {
+  align-self: stretch;
+  margin-top: 43px;
+  margin-bottom: 43px;
+}
+
+@media (max-width: 991px) {
+  .card-container {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.card-grid {
+  gap: 20px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .card-grid {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+
+.card-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 25%;
+}
+
+@media (max-width: 991px) {
+  .card-column {
+    width: 100%;
+  }
+}
+
+.card {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  font-size: 21px;
+  color: #6e6e73;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.23px;
+  line-height: 29px;
+  margin-top: 40px;
+}
+
+.card img {
+  aspect-ratio: 2;
+  object-fit: auto;
+  object-position: center;
+  width: 123px;
+  align-self: center;
+  max-width: 100%;
+}
+
+.card-description {
+  font-family: SF Pro Display, sans-serif;
+  margin-top: 28px;
+}
+
+.action-button {
+  border-radius: 980px;
+  background-color: #0071e3;
+  color: #fff;
+  text-align: center;
+  letter-spacing: -0.37px;
+  padding: 20px 33px;
+  font: 400 17px/118% SF Pro Text, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.support-section {
+  display: flex;
+  margin-top: 57px;
+  gap: 4px;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: -0.37px;
+  line-height: 147%;
+}
+
+@media (max-width: 991px) {
+  .support-section {
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+}
+
+.support-text {
+  color: #1d1d1f;
+  font-family: SF Pro Text, sans-serif;
+  flex-grow: 1;
+}
+
+.support-link {
+  color: #06c;
+  font-family: SF Pro Text, sans-serif;
+  flex-grow: 1;
+}
+
+.information-container {
+  width: 100%;
+}
+
+.information-grid {
+  gap: 20px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .information-grid {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.info-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 50%;
+}
+
+@media (max-width: 991px) {
+  .info-column {
+    width: 100%;
+  }
+}
+
+.info-card {
+  background-color: #fff;
+  font-size: 21px;
+  color: #1d1d1f;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.23px;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .info-card {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.info-title {
+  letter-spacing: -0.14px;
+  font: 700 48px/52px SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .info-title {
+    max-width: 100%;
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+.info-description {
+  font-family: SF Pro Display, sans-serif;
+  line-height: 29px;
+  margin-top: 33px;
+}
+
+.info-link {
+  color: #06c;
+  font-family: SF Pro Display, sans-serif;
+  line-height: 138.1%;
+  margin-top: 26px;
+}
+
+.info-card img {
+  aspect-ratio: 0.85;
+  object-fit: auto;
+  object-position: center;
+  width: 302px;
+  margin-top: 92px;
+  max-width: 100%;
+}
+
+@media (max-width: 991px) {
+  .info-card img {
+    margin-top: 40px;
+  }
+}
+
+.credit-card {
+  background-color: #fff;
+  font-size: 48px;
+  color: #1d1d1f;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -0.14px;
+  line-height: 108%;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .credit-card {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+
+.credit-card img {
+  aspect-ratio: 1.89;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  align-self: stretch;
+  margin-top: 87px;
+  max-width: 100%;
+}
+
+@media (max-width: 991px) {
+  .credit-card img {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.credit-title {
+  font-family: SF Pro Display, sans-serif;
+}
+
+.credit-subtitle {
+  font-family: SF Pro Display, sans-serif;
+  margin-top: 9px;
+}
+
+.credit-description {
+  letter-spacing: 0.23px;
+  margin-top: 33px;
+  font: 400 21px/29px SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.credit-link {
+  color: #06c;
+  letter-spacing: 0.23px;
+  margin-top: 27px;
+  font: 400 21px/138.1% SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.highlight-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  min-height: 560px;
+  margin-top: 30px;
+  width: 100%;
+  font-size: 21px;
+  color: #1d1d1f;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.23px;
+  padding: 80px 60px;
+}
+
+@media (max-width: 991px) {
+  .highlight-section {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.highlight-section img {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.highlight-content {
+  position: relative;
+  display: flex;
+  width: 467px;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin: 62px 0 34px;
+}
+
+@media (max-width: 991px) {
+  .highlight-content {
+    margin-top: 40px;
+  }
+}
+
+.highlight-title {
+  letter-spacing: -0.14px;
+  align-self: stretch;
+  font: 700 48px/52px SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .highlight-title {
+    max-width: 100%;
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+.highlight-description {
+  font-family: SF Pro Display, sans-serif;
+  line-height: 29px;
+  margin-top: 33px;
+}
+
+.highlight-link {
+  color: #06c;
+  font-family: SF Pro Display, sans-serif;
+  line-height: 138.1%;
+  margin-top: 26px;
+}
+
+.featured-accessories {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.featured-title {
+  color: #1d1d1f;
+  text-align: center;
+  letter-spacing: -0.28px;
+  align-self: center;
+  font: 700 56px/107% SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .featured-title {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+
+.product-section {
+  background-color: #fff;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .product-section {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.product-container {
+  gap: 20px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .product-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 35%;
+  margin-left: 0px;
+}
+
+@media (max-width: 991px) {
+  .product-info {
+    width: 100%;
+  }
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  align-items: center;
+  font-size: 21px;
+  color: #1d1d1f;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.23px;
+  margin: auto 0;
+}
+
+@media (max-width: 991px) {
+  .product-details {
+    margin-top: 40px;
+  }
+}
+
+.product-name {
+  letter-spacing: -0.14px;
+  font: 700 48px/108% SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .product-name {
+    font-size: 40px;
+  }
+}
+
+.product-description {
+  font-family: SF Pro Display, sans-serif;
+  line-height: 29px;
+  align-self: stretch;
+  margin-top: 24px;
+}
+
+.shop-link {
+  color: #06c;
+  font-family: SF Pro Display, sans-serif;
+  line-height: 138.1%;
+  margin-top: 24px;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 65%;
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  .image-wrapper {
+    width: 100%;
+  }
+}
+
+.product-image {
+  aspect-ratio: 1.37;
+  object-position: center;
+  width: 100%;
+  flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+  .product-image {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.airtag-section {
+  background-color: #fff;
+  margin-top: 10px;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .airtag-section {
+    max-width: 100%;
+  }
+}
+
+.airtag-container {
+  gap: 20px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .airtag-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+
+.airtag-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 60%;
+  margin-left: 0px;
+}
+
+@media (max-width: 991px) {
+  .airtag-image-wrapper {
+    width: 100%;
+  }
+}
+
+.airtag-image {
+  aspect-ratio: 1.52;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+  .airtag-image {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.airtag-info {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 40%;
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  .airtag-info {
+    width: 100%;
+  }
+}
+
+.airtag-details {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  align-items: center;
+  font-size: 21px;
+  color: #1d1d1f;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.23px;
+  margin: auto 0;
+}
+
+@media (max-width: 991px) {
+  .airtag-details {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.airtag-name {
+  letter-spacing: -0.14px;
+  font: 700 48px/108% SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .airtag-name {
+    font-size: 40px;
+  }
+}
+
+.airtag-description {
+  font-family: SF Pro Display, sans-serif;
+  line-height: 29px;
+  align-self: stretch;
+  margin-top: 24px;
+}
+
+@media (max-width: 991px) {
+  .airtag-description {
+    max-width: 100%;
+  }
+}
+
+.buy-learn-links {
+  display: flex;
+  margin-top: 24px;
+  gap: 20px;
+  color: #06c;
+  line-height: 138.1%;
+}
+
+.buy-link,
+.learn-link {
+  font-family: SF Pro Display, sans-serif;
+}
+
+.airpods-section {
+  background-color: #fff;
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .airpods-section {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.airpods-container {
+  display: flex;
+  width: 100%;
+  max-width: 1063px;
+  flex-direction: column;
+}
+
+@media (max-width: 991px) {
+  .airpods-container {
+    max-width: 100%;
+  }
+}
+
+.airpods-title {
+  color: #1d1d1f;
+  letter-spacing: -0.14px;
+  align-self: center;
+  font: 700 48px/52px SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .airpods-title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+.airpods-content {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  min-height: 498px;
+  margin-top: 16px;
+  width: 100%;
+  align-items: center;
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 0.23px;
+  padding: 5px 60px 80px;
+}
+
+@media (max-width: 991px) {
+  .airpods-content {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.airpods-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.explore-container {
+  position: relative;
+  display: flex;
+  margin-bottom: 245px;
+  width: 272px;
+  max-width: 100%;
+  flex-direction: column;
+}
+
+@media (max-width: 991px) {
+  .explore-container {
+    margin-bottom: 40px;
+  }
+}
+
+.explore-description {
+  color: #1d1d1f;
+  font-family: SF Pro Display, sans-serif;
+  line-height: 29px;
+}
+
+.learn-more-link {
+  color: #06c;
+  font-family: SF Pro Display, sans-serif;
+  line-height: 138.1%;
+  align-self: center;
+  margin-top: 24px;
+}
+
+.shop-all-link {
+  color: #06c;
+  text-align: center;
+  letter-spacing: 0.22px;
+  align-self: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font: 400 24px/133% SF Pro Display, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .shop-all-link {
+    margin-top: 40px;
+  }
+}
